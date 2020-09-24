@@ -1,0 +1,44 @@
+/* General architecture */
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+.box{
+  text-align: center;
+}
+/* grapics header */
+header img {
+padding-top: 23.5px;
+padding-bottom: 23.5px;
+}
+header li {
+  display: inline-block;
+  text-align: center;
+  line-height: 70px;
+  font-size: 13px;
+  padding-right: 15px;
+}
+header li:last-child {
+  padding-right: 0px;
+}
+/* bigbanner */
+.bigbanner {
+  height: 550px;
+  background-image: url(../img/hero-bg.jpg);
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.bigbanner h2 {
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+  font-size: 50px;
+}
+.bigbanner h3 {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+}
+.bigbanner img {
+  padding-top: 20px;
+}
