@@ -132,6 +132,9 @@
 }
 /* Tablet */
 @media screen and (min-width:769px){
+  .nonemd {
+    display: none;
+  }
   .col-md-1 {
     width: calc((100% / 12) * 1 );
     padding-left: 10px;
@@ -231,7 +234,11 @@
 }
 /* Desktop */
 @media screen and (min-width:1160px){
-  .col-mdx-1 {
+  .displayes {
+    display: block;
+  }
+
+  .col-lg-1 {
     width: calc((100% / 12) * 1 );
     padding-left: 10px;
     padding-right: 10px;
