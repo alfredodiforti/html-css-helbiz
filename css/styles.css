@@ -31,6 +31,7 @@ header li:last-child {
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
+  background-size: cover;
 }
 .bigbanner h2 {
   color: white;
@@ -128,4 +129,67 @@ header li:last-child {
 .terzabigfoto a {
   color: white;
   font-weight: 400;
+}
+
+/* maxiriquadri */
+.ocean {
+  background-color: #394b5b;
+  height: 380px;
+  overflow: hidden;
+}
+.city {
+  background-image: url(../img/cities.jpg);
+  height: 380px;
+  background-position: center;
+  background-size: cover;
+}
+.ocean
+h4 a, .city h4 a {
+  color: white;
+  padding: 20px;
+  line-height: 50px;
+  text-decoration: none;
+}
+.ocean img {
+  margin-bottom: 190px;
+  margin-top: -30px;
+}
+.ocean h2, .city h2 {
+  color: white;
+  line-height: 60px;
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 20px;
+}
+.ocean h4, .city h4 {
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+/* muchphoto */
+.muchphoto {
+  position: relative;
+  background-image: url(../img/social-banner.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+.whitebox {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  margin: auto;
+  background-color: white;
+  text-align: center;
+
+}
+.whitebox h2 {
+  font-size: 30px;
+  font-weight: 400;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
 }
